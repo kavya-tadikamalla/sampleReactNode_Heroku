@@ -46,6 +46,7 @@ const Login = (props) => {
                             }
                         }
                     });                    */
+                    console.log("Inside Try")
                     Axios.post('api/login',payload)
                     .then((response)=>{
                         if(response.data.message==="Login Successful"){

@@ -54,7 +54,7 @@ function Home(props) {
                 </div>
             </nav>
             {user !== null ?
-                <h3>Welcome Home <h2>{state}</h2> <small style={{wordBreak:'break-word'}}>{user}</small> </h3> :
+                <h3>Welcome Home <b>{state}</b> <small style={{wordBreak:'break-word'}}>{user}</small> </h3> :
                 <h1>Hi</h1>
             }
         </>
