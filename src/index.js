@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import Axios from 'axios';
 require('dotenv').config()
-Axios.defaults.baseURL = process.env.HOST;
+Axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
 
 ReactDOM.render(
   <React.StrictMode>
